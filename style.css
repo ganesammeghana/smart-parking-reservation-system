@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0066cc;
+}
+
+form {
+    width: 350px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004d99;
+}
+.slot{
+    width:60px;
+    height:60px;
+    background:green;
+    color:white;
+    text-align:center;
+    line-height:60px;
+    margin:5px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.booked{
+    background:red;
+    cursor:not-allowed;
+}
+
+.selected{
+    background:blue;
+}
